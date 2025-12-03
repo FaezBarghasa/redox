@@ -190,6 +190,7 @@ redox-games = {}
 #redox-ssh = {} # does not compile
 relibc = {}
 relibc-tests = {}
+redox-ci-tests = {}
 resist = {}
 #retroarch = {} # OS_TLSIndex not declared
 ripgrep = {}

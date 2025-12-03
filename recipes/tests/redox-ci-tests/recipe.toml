@@ -1,0 +1,10 @@
+[source]
+path = "../../../../redox-ci-tests"
+
+[build]
+template = "custom"
+script = """
+mkdir -p "${COOKBOOK_STAGE}/bin"
+"${CC}" "${COOKBOOK_SOURCE}/src/main.c" -o "${COOKBOOK_STAGE}/bin/redox-ci-tests"
+&& "${COOKBOOK_STAGE}/bin/redox-ci-tests"
+"""

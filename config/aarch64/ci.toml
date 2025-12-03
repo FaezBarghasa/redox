@@ -76,6 +76,7 @@ pop-icon-theme = {}
 pkgutils = {}
 redoxfs = {}
 relibc = {}
+redox-ci-tests = {}
 resist = {}
 ripgrep = {}
 rustpython = {}

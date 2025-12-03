@@ -71,6 +71,7 @@ pop-icon-theme = {}
 pkgutils = {}
 redoxfs = {}
 relibc = {}
+redox-ci-tests = {}
 #resist = {} # Uses redox_syscall 0.2 which does not compile on riscv64gc
 ripgrep = {}
 rustpython = {}

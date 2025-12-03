@@ -20,3 +20,4 @@ redox-posix-tests = {}
 vttest = {}
 benchmarks = {}
 hello-redox = {}
+redox-ci-tests = {}
