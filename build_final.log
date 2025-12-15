@@ -1,0 +1,208 @@
+export PATH="/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//bin:$PATH" && \
+export COOKBOOK_HOST_SYSROOT="/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/" && \
+./target/release/repo cook "--filesystem=config/x86_64/desktop.toml" --with-package-deps
+[1m[38;5;46mcook base - successful[39m[m
+[1m[38;5;46mcook redoxfs - successful[39m[m
+[1m[38;5;46mcook base-initfs - successful[39m[m
+[1m[38;5;46mcook terminfo - successful[39m[m
++ export PATH=/home/jrad/RustroverProjects/redoxos/redox/bin:/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/bin:/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//bin:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/.rustup/toolchains/esp/xtensa-esp-elf/esp-15.2.0_20250920/xtensa-esp-elf/bin:/home/jrad/.local/bin:/home/jrad/.rustup/toolchains/esp/xtensa-esp-elf/esp-15.2.0_20250920/xtensa-esp-elf/bin:/home/jrad/.nvm/versions/node/v24.9.0/bin:/home/jrad/.local/share/pnpm:/home/jrad/.local/bin:/home/jrad/.cargo/bin:/home/jrad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jrad/.local/share/JetBrains/Toolbox/scripts:/home/jrad/.local/bin:/home/jrad/.local/share/JetBrains/Toolbox/scripts:/home/jrad/.local/bin:/home/jrad/.local/bin:/home/jrad/.local/share/JetBrains/Toolbox/scripts:/home/jrad/.local/bin:/home/jrad/.local/bin
++ PATH=/home/jrad/RustroverProjects/redoxos/redox/bin:/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/bin:/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//bin:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/RustroverProjects/redoxos/redox/mocks:/home/jrad/.rustup/toolchains/esp/xtensa-esp-elf/esp-15.2.0_20250920/xtensa-esp-elf/bin:/home/jrad/.local/bin:/home/jrad/.rustup/toolchains/esp/xtensa-esp-elf/esp-15.2.0_20250920/xtensa-esp-elf/bin:/home/jrad/.nvm/versions/node/v24.9.0/bin:/home/jrad/.local/share/pnpm:/home/jrad/.local/bin:/home/jrad/.cargo/bin:/home/jrad/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/jrad/.local/share/JetBrains/Toolbox/scripts:/home/jrad/.local/bin:/home/jrad/.local/share/JetBrains/Toolbox/scripts:/home/jrad/.local/bin:/home/jrad/.local/bin:/home/jrad/.local/share/JetBrains/Toolbox/scripts:/home/jrad/.local/bin:/home/jrad/.local/bin
++ '[' '!' -z '' ']'
++ export CARGO_TARGET_DIR=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/build/target
++ CARGO_TARGET_DIR=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/build/target
++ export CFLAGS=-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include
++ CFLAGS=-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include
++ export CPPFLAGS=-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include
++ CPPFLAGS=-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include
++ OPTIMIZATION_FLAGS='-O3 -flto'
++ RUST_OPTIMIZATION_FLAGS='-C opt-level=3 -C lto=fat -C embed-bitcode=yes'
++ '[' x86_64 == x86_64 ']'
++ OPTIMIZATION_FLAGS='-O3 -flto -march=x86-64-v4'
++ RUST_OPTIMIZATION_FLAGS='-C opt-level=3 -C lto=fat -C embed-bitcode=yes -C target-cpu=x86-64-v4'
++ SECURITY_FLAGS=
++ RUST_SECURITY_FLAGS='-C link-arg=-zrelro -C link-arg=-znow'
++ '[' '' == gen ']'
++ '[' '' == use ']'
++ export 'CFLAGS=-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include -O3 -flto -march=x86-64-v4 '
++ CFLAGS='-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include -O3 -flto -march=x86-64-v4 '
++ export 'CXXFLAGS=-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include -O3 -flto -march=x86-64-v4 '
++ CXXFLAGS='-I/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/include -O3 -flto -march=x86-64-v4 '
++ export 'RUSTFLAGS=-C opt-level=3 -C lto=fat -C embed-bitcode=yes -C target-cpu=x86-64-v4 -C link-arg=-zrelro -C link-arg=-znow'
++ RUSTFLAGS='-C opt-level=3 -C lto=fat -C embed-bitcode=yes -C target-cpu=x86-64-v4 -C link-arg=-zrelro -C link-arg=-znow'
++ export 'LDFLAGS=-L/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib --static'
++ LDFLAGS='-L/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib --static'
++ '[' x86_64-unknown-redox '!=' x86_64-unknown-linux-gnu ']'
++ export PKG_CONFIG_ALLOW_CROSS=1
++ PKG_CONFIG_ALLOW_CROSS=1
++ export PKG_CONFIG_PATH=
++ PKG_CONFIG_PATH=
++ export PKG_CONFIG_LIBDIR=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib/pkgconfig
++ PKG_CONFIG_LIBDIR=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib/pkgconfig
++ export PKG_CONFIG_SYSROOT_DIR=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot
++ PKG_CONFIG_SYSROOT_DIR=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot
++ build_type=release
++ install_flags=
++ build_flags=--release
++ '[' '!' -z '' ']'
++ '[' '!' -z '' ']'
++ COOKBOOK_CARGO=/home/jrad/RustroverProjects/redoxos/redox/target/release/cookbook_redoxer
++ COOKBOOK_CONFIGURE=/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/source/configure
++ COOKBOOK_CONFIGURE_FLAGS=(--host="${GNU_TARGET}" --prefix="/usr" --disable-shared --enable-static)
++ COOKBOOK_MAKE=make
++ COOKBOOK_CMAKE=cmake
++ COOKBOOK_NINJA=ninja
++ COOKBOOK_CMAKE_FLAGS=(-DBUILD_SHARED_LIBS=False -DENABLE_SHARED=False -DENABLE_STATIC=True)
++ COOKBOOK_MESON=meson
++ COOKBOOK_MESON_FLAGS=(--buildtype release --wrap-mode nofallback --strip -Ddefault_library=static -Dprefix=/usr)
++ DYNAMIC_STATIC_INIT
++ DYNAMIC_INIT
++ COOKBOOK_AUTORECONF=autoreconf
++ case "${TARGET}" in
++ '[' -z 1 ']'
++ echo 'DEBUG: Program is being compiled dynamically.'
+DEBUG: Program is being compiled dynamically.
++ COOKBOOK_CONFIGURE_FLAGS=(--host="${GNU_TARGET}" --prefix="/usr" --enable-shared --disable-static)
++ COOKBOOK_CMAKE_FLAGS=(-DBUILD_SHARED_LIBS=True -DENABLE_SHARED=True -DENABLE_STATIC=False)
++ COOKBOOK_MESON_FLAGS=(--buildtype release --wrap-mode nofallback --strip -Ddefault_library=shared -Dprefix=/usr)
++ export 'LDFLAGS=-Wl,-rpath-link,/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib -L/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib'
++ LDFLAGS='-Wl,-rpath-link,/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib -L/home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/target/x86_64-unknown-redox/sysroot/lib'
++ export 'RUSTFLAGS=-C opt-level=3 -C lto=fat -C embed-bitcode=yes -C target-cpu=x86-64-v4 -C link-arg=-zrelro -C link-arg=-znow -C target-feature=-crt-static'
++ RUSTFLAGS='-C opt-level=3 -C lto=fat -C embed-bitcode=yes -C target-cpu=x86-64-v4 -C link-arg=-zrelro -C link-arg=-znow -C target-feature=-crt-static'
++ export COOKBOOK_DYNAMIC=1
++ COOKBOOK_DYNAMIC=1
++ '[' 1 == 1 ']'
++ COOKBOOK_CONFIGURE_FLAGS=(--host="${GNU_TARGET}" --prefix="/usr" --enable-shared --enable-static)
++ COOKBOOK_CMAKE_FLAGS=(-DBUILD_SHARED_LIBS=True -DENABLE_SHARED=True -DENABLE_STATIC=True)
++ COOKBOOK_MESON_FLAGS=(--buildtype release --wrap-mode nofallback --strip -Ddefault_library=both -Dprefix=/usr)
++ COOKBOOK_CONFIGURE_FLAGS+=(ac_cv_have_decl_program_invocation_name=no)
++ cookbook_configure
++ /home/jrad/RustroverProjects/redoxos/redox/recipes/libs/libiconv/source/configure --host=x86_64-unknown-redox --prefix=/usr --enable-shared --enable-static ac_cv_have_decl_program_invocation_name=no
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for x86_64-unknown-redox-strip... x86_64-unknown-redox-strip
+checking for a race-free mkdir -p... /usr/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for x86_64-unknown-redox-gcc... x86_64-unknown-redox-gcc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether the compiler supports GNU C... yes
+checking whether x86_64-unknown-redox-gcc accepts -g... yes
+checking for x86_64-unknown-redox-gcc option to enable C11 features... none needed
+checking whether x86_64-unknown-redox-gcc understands -c and -o together... yes
+checking whether the compiler is clang... no
+checking for compiler option needed when checking for declarations... none
+checking whether make supports the include directive... yes (GNU style)
+checking dependency style of x86_64-unknown-redox-gcc... none
+checking how to run the C preprocessor... x86_64-unknown-redox-gcc -E
+checking for strip... /usr/bin/strip
+checking for x86_64-unknown-redox-strip... (cached) x86_64-unknown-redox-strip
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... x86_64-unknown-redox
+checking for stdio.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for unistd.h... yes
+checking for wchar.h... yes
+checking for minix/config.h... no
+checking for sys/param.h... yes
+checking for sys/socket.h... yes
+checking for limits.h... yes
+checking for sys/time.h... yes
+checking for features.h... yes
+checking for crtdefs.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking whether _XOPEN_SOURCE should be defined... no
+checking for grep that handles long lines and -e... /usr/bin/grep
+checking for egrep... /usr/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking for x86_64-unknown-redox-ar... x86_64-unknown-redox-gcc-ar
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking how to print strings... printf
+checking for a sed that does not truncate output... /usr/bin/sed
+checking for fgrep... /usr/bin/grep -F
+checking for ld used by x86_64-unknown-redox-gcc... x86_64-unknown-redox-ld
+checking if the linker (x86_64-unknown-redox-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... /home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/bin/x86_64-unknown-redox-nm -B
+checking the name lister (/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/bin/x86_64-unknown-redox-nm -B) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to x86_64-unknown-redox format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for x86_64-unknown-redox-ld option to reload object files... -r
+checking for file... file
+checking for x86_64-unknown-redox-objdump... x86_64-unknown-redox-objdump
+checking how to recognize dependent libraries... pass_all
+checking for x86_64-unknown-redox-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for x86_64-unknown-redox-ar... (cached) x86_64-unknown-redox-gcc-ar
+checking for archiver @FILE support... @
+checking for x86_64-unknown-redox-strip... (cached) x86_64-unknown-redox-strip
+checking command to parse /home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/bin/x86_64-unknown-redox-nm -B output from x86_64-unknown-redox-gcc object... failed
+checking for sysroot... no
+checking for a working dd... /usr/bin/dd
+checking how to truncate binary pipes... /usr/bin/dd bs=4096 count=1
+checking for x86_64-unknown-redox-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if x86_64-unknown-redox-gcc supports -fno-rtti -fno-exceptions... no
+checking for x86_64-unknown-redox-gcc option to produce PIC... -fPIC -DPIC
+checking if x86_64-unknown-redox-gcc PIC flag -fPIC -DPIC works... yes
+checking if x86_64-unknown-redox-gcc static flag -static works... yes
+checking if x86_64-unknown-redox-gcc supports -c -o file.o... yes
+checking if x86_64-unknown-redox-gcc supports -c -o file.o... (cached) yes
+checking whether the x86_64-unknown-redox-gcc linker (x86_64-unknown-redox-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... relibc ld64.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for ld... x86_64-unknown-redox-ld
+checking if the linker (x86_64-unknown-redox-ld) is GNU ld... yes
+checking for shared library path variable... none
+checking whether to activate relocatable installation... no
+checking how to copy files... cp -p
+checking how to make hard links... ln
+checking whether ln -s works... yes
+checking for x86_64-unknown-redox-windres... no
+checking for windres... no
+checking whether the -Werror option is usable... yes
+checking for simple visibility declarations... yes
+checking for shared library run path origin... done
+checking 32-bit host C ABI... no
+checking for ELF binary format... yes
+checking for the common suffixes of directories in the library search path... lib,lib,lib64
+checking for iconv... no, consider installing GNU libiconv
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/bin/msgfmt
+checking for gmsgfmt... /usr/bin/msgfmt
+checking for xgettext... /usr/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyPreferredLanguages... no
+checking for GNU gettext in libc... no
+checking for iconv... (cached) no, consider installing GNU libiconv
+checking for GNU gettext in libintl... no
+checking whether to use NLS... no
+checking for mbstate_t... yes
+checking for wchar_t... yes
+checking for getc_unlocked... yes
+checking for mbrtowc... yes
+checking for wcrtomb... make: *** [mk/repo.mk:7: build/x86_64/desktop/repo.tag] Interrupt

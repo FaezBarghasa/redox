@@ -47,7 +47,7 @@ function DYNAMIC_INIT {
 
     # TODO: check paths for spaces
     export LDFLAGS="-Wl,-rpath-link,${COOKBOOK_SYSROOT}/lib -L${COOKBOOK_SYSROOT}/lib"
-    export RUSTFLAGS="-C target-feature=-crt-static"
+    export RUSTFLAGS="${RUSTFLAGS} -C target-feature=-crt-static"
     export COOKBOOK_DYNAMIC=1
 }
 
@@ -102,6 +102,47 @@ export CARGO_TARGET_DIR="${COOKBOOK_BUILD}/target"
 #TODO: check paths for spaces!
 export CFLAGS="-I${COOKBOOK_SYSROOT}/include"
 export CPPFLAGS="-I${COOKBOOK_SYSROOT}/include"
+
+# -----------------------------------------------------------------------------
+# REDOX AGGRESSIVE OPTIMIZATION & SECURITY LAYER (Build System Refactor)
+# -----------------------------------------------------------------------------
+
+# 1. Compiler Flags (LTO, O3, March)
+# Base aggressive optimizations
+# NOTE: LTO disabled for C/C++ due to gnulib symbol resolution issues (libiconv, etc.)
+# NOTE: Rust LTO disabled to avoid dylib incompatibility (requires -Zdylib-lto on nightly)
+OPTIMIZATION_FLAGS="-O3"
+RUST_OPTIMIZATION_FLAGS="-C opt-level=3 -C embed-bitcode=yes"
+
+# Architecture specific extensions
+if [ "${TARGET%%-*}" == "x86_64" ]; then
+    # Aggressive x86_64 optimization (v4 requires AVX512, ensure target supports it)
+    OPTIMIZATION_FLAGS="${OPTIMIZATION_FLAGS} -march=x86-64-v4"
+    RUST_OPTIMIZATION_FLAGS="${RUST_OPTIMIZATION_FLAGS} -C target-cpu=x86-64-v4"
+elif [ "${TARGET%%-*}" == "aarch64" ]; then
+    # Aggressive AArch64 optimization
+    OPTIMIZATION_FLAGS="${OPTIMIZATION_FLAGS} -march=armv8.2-a+crypto+fp16+rcpc+dotprod"
+    RUST_OPTIMIZATION_FLAGS="${RUST_OPTIMIZATION_FLAGS} -C target-cpu=native"
+fi
+
+# 2. Security Checks
+SECURITY_FLAGS=""
+RUST_SECURITY_FLAGS="-C link-arg=-zrelro -C link-arg=-znow"
+
+# 3. PGO (Profile-Guided Optimization) logic
+if [ "${COOKBOOK_PROFILE}" == "gen" ]; then
+    OPTIMIZATION_FLAGS="${OPTIMIZATION_FLAGS} -fprofile-generate"
+    RUST_OPTIMIZATION_FLAGS="${RUST_OPTIMIZATION_FLAGS} -C profile-generate"
+elif [ "${COOKBOOK_PROFILE}" == "use" ]; then
+    OPTIMIZATION_FLAGS="${OPTIMIZATION_FLAGS} -fprofile-use"
+    RUST_OPTIMIZATION_FLAGS="${RUST_OPTIMIZATION_FLAGS} -C profile-use"
+fi
+
+export CFLAGS="${CFLAGS} ${OPTIMIZATION_FLAGS} ${SECURITY_FLAGS}"
+export CXXFLAGS="${CFLAGS}"
+export RUSTFLAGS="${RUST_OPTIMIZATION_FLAGS} ${RUST_SECURITY_FLAGS}"
+
+# -----------------------------------------------------------------------------
 
 # This adds the sysroot libraries and compiles binaries statically for most C compilation
 #TODO: check paths for spaces!
@@ -317,7 +358,8 @@ for dir in "${COOKBOOK_STAGE}/bin" "${COOKBOOK_STAGE}/usr/bin"
 do
     if [ -d "${dir}" ] && [ -z "${COOKBOOK_NOSTRIP}" ]
     then
-        find "${dir}" -type f -exec "${GNU_TARGET}-strip" -v {} ';'
+        # Aggressive size optimization: --strip-all removes all symbols and sections
+        find "${dir}" -type f -exec "${GNU_TARGET}-strip" --strip-all -v {} ';'
     fi
 done
 

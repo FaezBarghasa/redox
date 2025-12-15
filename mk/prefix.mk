@@ -33,7 +33,7 @@ PREFIX_STRIP=\
 	mkdir -p bin libexec "$(GCC_TARGET)/bin" && \
 	find bin libexec "$(GCC_TARGET)/bin" "$(GCC_TARGET)/lib" \
 		-type f \
-		-exec strip --strip-unneeded {} ';' \
+		-exec strip --strip-all {} ';' \
 		2> /dev/null
 
 $(RELIBC_SOURCE): | $(FSTOOLS_TAG)

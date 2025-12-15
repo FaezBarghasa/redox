@@ -1,0 +1,11 @@
+#!/bin/sh
+if [ "$1" = "--version" ]; then echo "help2man 1.47.6"; exit 0; fi
+echo ".TH COMMAND 1"
+echo ".SH NAME"
+echo "command \- manual page"
+exit 0
+if [ "$1" = "--version" ]; then echo "help2man 1.47.6"; exit 0; fi
+echo ".TH COMMAND 1"
+echo ".SH NAME"
+echo "command \- manual page"
+exit 0

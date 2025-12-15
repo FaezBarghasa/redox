@@ -93,6 +93,9 @@ ifeq ($(REPO_DEBUG),1)
 #	export PROFILE=debug
 #	export RUSTCFLAGS="-Cdebuginfo=2"
 endif
+# Profile-Guided Optimization (PGO)
+# Set to 'gen' to generate profiles, 'use' to use them
+COOKBOOK_PROFILE?=
 
 UNAME := $(shell uname)
 ifeq ($(UNAME),Darwin)

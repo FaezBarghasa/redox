@@ -1,0 +1,18 @@
+#!/bin/bash
+if [ "$1" = "--version" ]; then echo "texi2any (GNU texinfo) 6.5"; exit 0; fi
+prev=""
+for arg in "$@"; do
+    if [ "$prev" = "-o" ]; then
+        touch "$arg"
+        exit 0
+    fi
+    prev="$arg"
+done
+# Fallback to look for .texi inputs and produce default .info outputs
+for arg in "$@"; do
+    if [[ "$arg" == *.texi ]]; then
+        base=$(basename "$arg" .texi)
+        touch "$base.info"
+    fi
+done
+exit 0
