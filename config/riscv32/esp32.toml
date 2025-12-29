@@ -1,0 +1,19 @@
+# General settings
+[general]
+# Filesystem size in MiB - ESP32 flash is small (4MB-16MB)
+filesystem_size = 4
+prompt = false
+
+# Package settings
+[packages]
+# Minimal set of packages for a bare-bones system
+kernel = {}
+init = {}
+redoxfs = {}
+
+# Drivers would go here, but most desktop drivers won't work.
+# We need board-specific drivers in the kernel or strictly selected drivers.
+
+[[files]]
+path = "/etc/hostname"
+data = "redox-esp32"

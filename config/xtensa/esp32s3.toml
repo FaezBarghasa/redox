@@ -1,0 +1,21 @@
+# General settings
+[general]
+# Filesystem size in MiB - ESP32-S3 flash is typically 4MB-16MB
+filesystem_size = 4
+prompt = false
+
+# Package settings
+[packages]
+# Minimal set of packages for a bare-bones system
+kernel = {}
+init = {}
+redoxfs = {}
+
+# Drivers:
+# The ESP32-S3 has wildly different peripherals (WiFi, BT, etc) than PC.
+# Standard Redox drivers (PCI, USB-HID) will NOT work out of the box.
+# You need to implement custom drivers or use 'esp-wifi' crate adaptors.
+
+[[files]]
+path = "/etc/hostname"
+data = "redox-esp32s3"

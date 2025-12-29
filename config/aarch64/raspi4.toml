@@ -1,0 +1,21 @@
+# General settings
+[general]
+filesystem_size = 512
+prompt = false
+
+# Package settings
+[packages]
+kernel = {}
+init = {}
+redoxfs = {}
+bcm2835-sdhci = {} # SD Card driver (might need update for bcm2711)
+# bcm2711-gpio = {} # Should be implemented
+# uarths = {} # Serial console
+
+[[files]]
+path = "/etc/hostname"
+data = "redox-rpi4"
+
+[[files]]
+path = "/dev/tty"
+data = "uart:" # Attempt to use default UART
