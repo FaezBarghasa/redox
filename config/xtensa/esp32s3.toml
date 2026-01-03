@@ -8,7 +8,6 @@ prompt = false
 [packages]
 # Minimal set of packages for a bare-bones system
 kernel = {}
-init = {}
 redoxfs = {}
 
 # Drivers:

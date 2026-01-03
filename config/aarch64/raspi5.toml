@@ -1,6 +1,6 @@
 # General settings
 [general]
-filesystem_size = 512
+filesystem_size = 1024 # give it more space
 prompt = false
 
 # Package settings
@@ -12,8 +12,8 @@ bootloader = {}
 
 [[files]]
 path = "/etc/hostname"
-data = "redox-rpi4"
+data = "redox-rpi5"
 
 [[files]]
 path = "/dev/tty"
-data = "uart:" # Attempt to use default UART
+data = "uart:"

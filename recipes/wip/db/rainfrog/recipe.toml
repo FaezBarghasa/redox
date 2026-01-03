@@ -1,9 +1,0 @@
-#TODO not compiled or tested
-[source]
-git = "https://github.com/achristmascarl/rainfrog"
-[build]
-template = "cargo"
-[package]
-dependencies = [
-    "nerd-fonts",
-]

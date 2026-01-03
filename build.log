@@ -1,1094 +1,162 @@
-export PATH="/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//bin:$PATH" && \
-export COOKBOOK_HOST_SYSROOT="/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot/" && \
-./target/release/repo cook "--filesystem=config/x86_64/desktop.toml" --with-package-deps
-[1m[38;5;46mcook base - successful[39m[m
-[1m[38;5;46mcook redoxfs - successful[39m[m
-[1m[38;5;46mcook base-initfs - successful[39m[m
-[1m[38;5;46mcook terminfo - successful[39m[m
-libiconv-1.17/doc/
-libiconv-1.17/doc/relocatable.texi
-libiconv-1.17/windows/
-libiconv-1.17/windows/libiconv.rc
-libiconv-1.17/windows/iconv.rc
-libiconv-1.17/windows/windres-options
-libiconv-1.17/gnulib-local/
-libiconv-1.17/gnulib-local/lib/
-libiconv-1.17/gnulib-local/lib/xalloc.h
-libiconv-1.17/gnulib-local/lib/error.h.diff
-libiconv-1.17/gnulib-local/lib/progname.h.diff
-libiconv-1.17/gnulib-local/lib/alloca.in.h
-libiconv-1.17/gnulib-local/lib/xmalloc.c
-libiconv-1.17/gnulib-local/lib/xstrdup.c
-libiconv-1.17/gnulib-local/modules/
-libiconv-1.17/gnulib-local/modules/mbstate
-libiconv-1.17/gnulib-local/modules/xalloc
-libiconv-1.17/gnulib-local/modules/libiconv-misc
-libiconv-1.17/gnulib-local/m4/
-libiconv-1.17/gnulib-local/m4/alloca.m4
-libiconv-1.17/woe32dll/
-libiconv-1.17/woe32dll/iconv-exports.c
-libiconv-1.17/woe32dll/export.h
-libiconv-1.17/COPYING.LIB
-libiconv-1.17/build-aux/
-libiconv-1.17/build-aux/mkinstalldirs
-libiconv-1.17/build-aux/missing
-libiconv-1.17/build-aux/ar-lib
-libiconv-1.17/build-aux/config.rpath
-libiconv-1.17/build-aux/ltmain.sh
-libiconv-1.17/build-aux/reloc-ldflags
-libiconv-1.17/build-aux/config.guess
-libiconv-1.17/build-aux/compile
-libiconv-1.17/build-aux/install-reloc
-libiconv-1.17/build-aux/libtool-reloc
-libiconv-1.17/build-aux/config.sub
-libiconv-1.17/build-aux/install-sh
-libiconv-1.17/build-aux/config.libpath
-libiconv-1.17/ChangeLog
-libiconv-1.17/srcm4/
-libiconv-1.17/srcm4/limits-h.m4
-libiconv-1.17/srcm4/rawmemchr.m4
-libiconv-1.17/srcm4/intlmacosx.m4
-libiconv-1.17/srcm4/lib-prefix.m4
-libiconv-1.17/srcm4/ssize_t.m4
-libiconv-1.17/srcm4/intl-thread-locale.m4
-libiconv-1.17/srcm4/eealloc.m4
-libiconv-1.17/srcm4/unlocked-io.m4
-libiconv-1.17/srcm4/po.m4
-libiconv-1.17/srcm4/gettext.m4
-libiconv-1.17/srcm4/getprogname.m4
-libiconv-1.17/srcm4/signal_h.m4
-libiconv-1.17/srcm4/fstat.m4
-libiconv-1.17/srcm4/stat-time.m4
-libiconv-1.17/srcm4/malloc.m4
-libiconv-1.17/srcm4/open.m4
-libiconv-1.17/srcm4/libunistring-base.m4
-libiconv-1.17/srcm4/sys_socket_h.m4
-libiconv-1.17/srcm4/mbstate_t.m4
-libiconv-1.17/srcm4/multiarch.m4
-libiconv-1.17/srcm4/gnulib-tool.m4
-libiconv-1.17/srcm4/std-gnu11.m4
-libiconv-1.17/srcm4/getdtablesize.m4
-libiconv-1.17/srcm4/stdalign.m4
-libiconv-1.17/srcm4/wchar_t.m4
-libiconv-1.17/srcm4/sigpipe.m4
-libiconv-1.17/srcm4/sys_types_h.m4
-libiconv-1.17/srcm4/stdlib_h.m4
-libiconv-1.17/srcm4/environ.m4
-libiconv-1.17/srcm4/error.m4
-libiconv-1.17/srcm4/gnulib-comp.m4
-libiconv-1.17/srcm4/lib-link.m4
-libiconv-1.17/srcm4/off_t.m4
-libiconv-1.17/srcm4/signalblocking.m4
-libiconv-1.17/srcm4/double-slash-root.m4
-libiconv-1.17/srcm4/include_next.m4
-libiconv-1.17/srcm4/fcntl-o.m4
-libiconv-1.17/srcm4/iconv.m4
-libiconv-1.17/srcm4/wint_t.m4
-libiconv-1.17/srcm4/absolute-header.m4
-libiconv-1.17/srcm4/extensions.m4
-libiconv-1.17/srcm4/nocrash.m4
-libiconv-1.17/srcm4/asm-underscore.m4
-libiconv-1.17/srcm4/canonicalize.m4
-libiconv-1.17/srcm4/warn-on-use.m4
-libiconv-1.17/srcm4/setenv.m4
-libiconv-1.17/srcm4/pid_t.m4
-libiconv-1.17/srcm4/fcntl.m4
-libiconv-1.17/srcm4/readlink.m4
-libiconv-1.17/srcm4/extern-inline.m4
-libiconv-1.17/srcm4/dup2.m4
-libiconv-1.17/srcm4/strerror.m4
-libiconv-1.17/srcm4/mempcpy.m4
-libiconv-1.17/srcm4/open-slash.m4
-libiconv-1.17/srcm4/unistd_h.m4
-libiconv-1.17/srcm4/stdint.m4
-libiconv-1.17/srcm4/00gnulib.m4
-libiconv-1.17/srcm4/fcntl_h.m4
-libiconv-1.17/srcm4/close.m4
-libiconv-1.17/srcm4/zzgnulib.m4
-libiconv-1.17/srcm4/stdio_h.m4
-libiconv-1.17/srcm4/builtin-expect.m4
-libiconv-1.17/srcm4/lstat.m4
-libiconv-1.17/srcm4/msvc-nothrow.m4
-libiconv-1.17/srcm4/open-cloexec.m4
-libiconv-1.17/srcm4/relocatable.m4
-libiconv-1.17/srcm4/wchar_h.m4
-libiconv-1.17/srcm4/time_h.m4
-libiconv-1.17/srcm4/nls.m4
-libiconv-1.17/srcm4/relocatable-lib.m4
-libiconv-1.17/srcm4/realloc.m4
-libiconv-1.17/srcm4/string_h.m4
-libiconv-1.17/srcm4/vararrays.m4
-libiconv-1.17/srcm4/raise.m4
-libiconv-1.17/srcm4/safe-read.m4
-libiconv-1.17/srcm4/stat.m4
-libiconv-1.17/srcm4/gnulib-cache.m4
-libiconv-1.17/srcm4/free.m4
-libiconv-1.17/srcm4/inttypes.m4
-libiconv-1.17/srcm4/__inline.m4
-libiconv-1.17/srcm4/lib-ld.m4
-libiconv-1.17/srcm4/stdbool.m4
-libiconv-1.17/srcm4/gnulib-common.m4
-libiconv-1.17/srcm4/stddef_h.m4
-libiconv-1.17/srcm4/codeset.m4
-libiconv-1.17/srcm4/errno_h.m4
-libiconv-1.17/srcm4/sys_stat_h.m4
-libiconv-1.17/srcm4/host-cpu-c-abi.m4
-libiconv-1.17/srcm4/visibility.m4
-libiconv-1.17/srcm4/progtest.m4
-libiconv-1.17/srcm4/msvc-inval.m4
-libiconv-1.17/srcm4/read.m4
-libiconv-1.17/srcm4/malloca.m4
-libiconv-1.17/srcm4/year2038.m4
-libiconv-1.17/srcm4/largefile.m4
-libiconv-1.17/srcm4/pathmax.m4
-libiconv-1.17/srcm4/mode_t.m4
-libiconv-1.17/srcm4/minmax.m4
-libiconv-1.17/srcm4/alloca.m4
-libiconv-1.17/tools/
-libiconv-1.17/tools/cjk_tab_to_h.c
-libiconv-1.17/tools/JISX0213.TXT
-libiconv-1.17/tools/Makefile
-libiconv-1.17/tools/cjk_variants.c
-libiconv-1.17/tools/CP50221-0212-EXT.TXT
-libiconv-1.17/tools/CP50221-0208-EXT.TXT
-libiconv-1.17/tools/8bit_tab_to_h.c
-libiconv-1.17/ABOUT-NLS
-libiconv-1.17/Makefile.devel
-libiconv-1.17/configure
-libiconv-1.17/Makefile.in
-libiconv-1.17/src/
-libiconv-1.17/src/Makefile.in
-libiconv-1.17/src/iconv_no_i18n.c
-libiconv-1.17/src/iconv.c
-libiconv-1.17/NOTES
-libiconv-1.17/INSTALL.generic
-libiconv-1.17/man/
-libiconv-1.17/man/iconv.3
-libiconv-1.17/man/iconvctl.3.html
-libiconv-1.17/man/iconv.3.html
-libiconv-1.17/man/iconv_close.3
-libiconv-1.17/man/Makefile.in
-libiconv-1.17/man/iconv.1
-libiconv-1.17/man/iconv_close.3.html
-libiconv-1.17/man/iconv_open.3
-libiconv-1.17/man/iconv.1.html
-libiconv-1.17/man/iconvctl.3
-libiconv-1.17/man/iconv_open_into.3.html
-libiconv-1.17/man/iconv_open_into.3
-libiconv-1.17/man/iconv_open.3.html
-libiconv-1.17/NEWS
-libiconv-1.17/README
-libiconv-1.17/HACKING
-libiconv-1.17/DESIGN
-libiconv-1.17/THANKS
-libiconv-1.17/configure.ac
-libiconv-1.17/INSTALL.windows
-libiconv-1.17/po/
-libiconv-1.17/po/sl.po
-libiconv-1.17/po/en@boldquot.header
-libiconv-1.17/po/pt_BR.gmo
-libiconv-1.17/po/ca.gmo
-libiconv-1.17/po/it.po
-libiconv-1.17/po/ko.po
-libiconv-1.17/po/lt.po
-libiconv-1.17/po/zh_CN.gmo
-libiconv-1.17/po/wa.po
-libiconv-1.17/po/id.po
-libiconv-1.17/po/sk.gmo
-libiconv-1.17/po/el.gmo
-libiconv-1.17/po/sr.po
-libiconv-1.17/po/vi.po
-libiconv-1.17/po/ChangeLog
-libiconv-1.17/po/eo.po
-libiconv-1.17/po/stamp-po
-libiconv-1.17/po/ro.gmo
-libiconv-1.17/po/zh_CN.po
-libiconv-1.17/po/ga.gmo
-libiconv-1.17/po/vi.gmo
-libiconv-1.17/po/zh_TW.po
-libiconv-1.17/po/hr.gmo
-libiconv-1.17/po/fi.gmo
-libiconv-1.17/po/ga.po
-libiconv-1.17/po/cs.gmo
-libiconv-1.17/po/af.gmo
-libiconv-1.17/po/de.gmo
-libiconv-1.17/po/id.gmo
-libiconv-1.17/po/en@quot.header
-libiconv-1.17/po/lt.gmo
-libiconv-1.17/po/da.gmo
-libiconv-1.17/po/fi.po
-libiconv-1.17/po/el.po
-libiconv-1.17/po/es.gmo
-libiconv-1.17/po/tr.gmo
-libiconv-1.17/po/LINGUAS
-libiconv-1.17/po/nl.gmo
-libiconv-1.17/po/et.gmo
-libiconv-1.17/po/sq.gmo
-libiconv-1.17/po/ja.po
-libiconv-1.17/po/bg.po
-libiconv-1.17/po/pl.gmo
-libiconv-1.17/po/sr.gmo
-libiconv-1.17/po/da.po
-libiconv-1.17/po/Makefile.in.in
-libiconv-1.17/po/de.po
-libiconv-1.17/po/POTFILES.in
-libiconv-1.17/po/bg.gmo
-libiconv-1.17/po/ko.gmo
-libiconv-1.17/po/pl.po
-libiconv-1.17/po/gl.gmo
-libiconv-1.17/po/ru.po
-libiconv-1.17/po/fr.po
-libiconv-1.17/po/wa.gmo
-libiconv-1.17/po/fr.gmo
-libiconv-1.17/po/pt_BR.po
-libiconv-1.17/po/libiconv.pot
-libiconv-1.17/po/ro.po
-libiconv-1.17/po/cs.po
-libiconv-1.17/po/hu.po
-libiconv-1.17/po/uk.po
-libiconv-1.17/po/sv.po
-libiconv-1.17/po/et.po
-libiconv-1.17/po/ja.gmo
-libiconv-1.17/po/nl.po
-libiconv-1.17/po/hr.po
-libiconv-1.17/po/es.po
-libiconv-1.17/po/sv.gmo
-libiconv-1.17/po/Rules-quot
-libiconv-1.17/po/hu.gmo
-libiconv-1.17/po/it.gmo
-libiconv-1.17/po/quot.sed
-libiconv-1.17/po/zh_TW.gmo
-libiconv-1.17/po/gl.po
-libiconv-1.17/po/ru.gmo
-libiconv-1.17/po/remove-potcdate.sin
-libiconv-1.17/po/tr.po
-libiconv-1.17/po/eo.gmo
-libiconv-1.17/po/insert-header.sin
-libiconv-1.17/po/ca.po
-libiconv-1.17/po/uk.gmo
-libiconv-1.17/po/sl.gmo
-libiconv-1.17/po/rm.po
-libiconv-1.17/po/sq.po
-libiconv-1.17/po/rm.gmo
-libiconv-1.17/po/af.po
-libiconv-1.17/po/sk.po
-libiconv-1.17/po/boldquot.sed
-libiconv-1.17/po/Makevars
-libiconv-1.17/AUTHORS
-libiconv-1.17/lib/
-libiconv-1.17/lib/translit.def
-libiconv-1.17/lib/encodings_zos.def
-libiconv-1.17/lib/ebcdic870.h
-libiconv-1.17/lib/koi8_r.h
-libiconv-1.17/lib/mac_romania.h
-libiconv-1.17/lib/iso8859_15.h
-libiconv-1.17/lib/canonical_syssolaris.h
-libiconv-1.17/lib/cp1163.h
-libiconv-1.17/lib/ucs2be.h
-libiconv-1.17/lib/jisx0213.h
-libiconv-1.17/lib/genflags.c
-libiconv-1.17/lib/iso8859_3.h
-libiconv-1.17/lib/encodings_extra.def
-libiconv-1.17/lib/canonical_syshpux.h
-libiconv-1.17/lib/euc_jisx0213.h
-libiconv-1.17/lib/ebcdic1097.h
-libiconv-1.17/lib/ebcdic1148.h
-libiconv-1.17/lib/cns11643_5.h
-libiconv-1.17/lib/georgian_academy.h
-libiconv-1.17/lib/jisx0208.h
-libiconv-1.17/lib/cp1129.h
-libiconv-1.17/lib/loops.h
-libiconv-1.17/lib/utf32be.h
-libiconv-1.17/lib/cp1046.h
-libiconv-1.17/lib/cns11643_1.h
-libiconv-1.17/lib/koi8_u.h
-libiconv-1.17/lib/ebcdic1123.h
-libiconv-1.17/lib/cp858.h
-libiconv-1.17/lib/dec_kanji.h
-libiconv-1.17/lib/ces_gbk.h
-libiconv-1.17/lib/shift_jisx0213.h
-libiconv-1.17/lib/canonical_zos.h
-libiconv-1.17/lib/mulelao.h
-libiconv-1.17/lib/cns11643_4b.h
-libiconv-1.17/lib/iso8859_7.h
-libiconv-1.17/lib/cp1256.h
-libiconv-1.17/lib/ucs2swapped.h
-libiconv-1.17/lib/euc_kr.h
-libiconv-1.17/lib/ebcdic037.h
-libiconv-1.17/lib/hkscs2008.h
-libiconv-1.17/lib/cp1250.h
-libiconv-1.17/lib/cp1131.h
-libiconv-1.17/lib/ebcdic282.h
-libiconv-1.17/lib/ebcdic277.h
-libiconv-1.17/lib/ebcdic425.h
-libiconv-1.17/lib/aliases2.h
-libiconv-1.17/lib/utf8.h
-libiconv-1.17/lib/c99.h
-libiconv-1.17/lib/cp949.h
-libiconv-1.17/lib/cp922.h
-libiconv-1.17/lib/aliases_syshpux.gperf
-libiconv-1.17/lib/ebcdic1140.h
-libiconv-1.17/lib/cns11643_7.h
-libiconv-1.17/lib/hp_roman8.h
-libiconv-1.17/lib/utf16be.h
-libiconv-1.17/lib/encodings_aix.def
-libiconv-1.17/lib/ebcdic284.h
-libiconv-1.17/lib/ebcdic1155.h
-libiconv-1.17/lib/ebcdic871.h
-libiconv-1.17/lib/iso8859_1.h
-libiconv-1.17/lib/gb18030uni.h
-libiconv-1.17/lib/cp866.h
-libiconv-1.17/lib/iso8859_10.h
-libiconv-1.17/lib/cp50221_0208_ext.h
-libiconv-1.17/lib/isoir165.h
-libiconv-1.17/lib/cp857.h
-libiconv-1.17/lib/ebcdic1144.h
-libiconv-1.17/lib/gbkext_inv.h
-libiconv-1.17/lib/ebcdic1141.h
-libiconv-1.17/lib/aliases_osf1_sysosf1.h
-libiconv-1.17/lib/jisx0201.h
-libiconv-1.17/lib/ebcdic1122.h
-libiconv-1.17/lib/iso2022_jpms.h
-libiconv-1.17/lib/Makefile.in
-libiconv-1.17/lib/aliases_sysaix.gperf
-libiconv-1.17/lib/ebcdic1146.h
-libiconv-1.17/lib/iso2022_jp2.h
-libiconv-1.17/lib/genaliases2.c
-libiconv-1.17/lib/canonical_sysosf1.h
-libiconv-1.17/lib/cp865.h
-libiconv-1.17/lib/loop_wchar.h
-libiconv-1.17/lib/gbkext1.h
-libiconv-1.17/lib/cp943.h
-libiconv-1.17/lib/riscos1.h
-libiconv-1.17/lib/cns11643_4a.h
-libiconv-1.17/lib/sjis.h
-libiconv-1.17/lib/cp932.h
-libiconv-1.17/lib/canonical_aix.h
-libiconv-1.17/lib/cp1162.h
-libiconv-1.17/lib/ebcdic1156.h
-libiconv-1.17/lib/canonical_local_syshpux.h
-libiconv-1.17/lib/tis620.h
-libiconv-1.17/lib/cp1258.h
-libiconv-1.17/lib/cp1133.h
-libiconv-1.17/lib/big5hkscs2008.h
-libiconv-1.17/lib/hkscs1999.h
-libiconv-1.17/lib/aliases_aix.h
-libiconv-1.17/lib/ebcdic278.h
-libiconv-1.17/lib/utf32.h
-libiconv-1.17/lib/cns11643.h
-libiconv-1.17/lib/iso2022_cnext.h
-libiconv-1.17/lib/iso8859_4.h
-libiconv-1.17/lib/cns11643_3.h
-libiconv-1.17/lib/ebcdic1137.h
-libiconv-1.17/lib/utf16le.h
-libiconv-1.17/lib/big5hkscs2001.h
-libiconv-1.17/lib/cp1251.h
-libiconv-1.17/lib/big5hkscs2004.h
-libiconv-1.17/lib/canonical_extra.h
-libiconv-1.17/lib/ucs4le.h
-libiconv-1.17/lib/hkscs2004.h
-libiconv-1.17/lib/cns11643_6.h
-libiconv-1.17/lib/ebcdic875.h
-libiconv-1.17/lib/ucs4.h
-libiconv-1.17/lib/ebcdic1153.h
-libiconv-1.17/lib/iso8859_16.h
-libiconv-1.17/lib/mac_arabic.h
-libiconv-1.17/lib/aliases_syssolaris.gperf
-libiconv-1.17/lib/cp737.h
-libiconv-1.17/lib/cjk_variants.h
-libiconv-1.17/lib/johab_hangul.h
-libiconv-1.17/lib/gb18030.h
-libiconv-1.17/lib/cp1253.h
-libiconv-1.17/lib/ebcdic1165.h
-libiconv-1.17/lib/mac_iceland.h
-libiconv-1.17/lib/uhc_1.h
-libiconv-1.17/lib/iso8859_8.h
-libiconv-1.17/lib/cp1254.h
-libiconv-1.17/lib/ebcdic1112.h
-libiconv-1.17/lib/loop_unicode.h
-libiconv-1.17/lib/ebcdic1145.h
-libiconv-1.17/lib/encodings.def
-libiconv-1.17/lib/converters.h
-libiconv-1.17/lib/tcvn.h
-libiconv-1.17/lib/canonical_osf1_sysosf1.h
-libiconv-1.17/lib/hz.h
-libiconv-1.17/lib/canonical_local.h
-libiconv-1.17/lib/encodings_osf1.def
-libiconv-1.17/lib/ebcdic1160.h
-libiconv-1.17/lib/big5hkscs1999.h
-libiconv-1.17/lib/canonical_local_sysosf1.h
-libiconv-1.17/lib/flushwc.h
-libiconv-1.17/lib/iso2022_jp3.h
-libiconv-1.17/lib/cp860.h
-libiconv-1.17/lib/ebcdic424.h
-libiconv-1.17/lib/viscii.h
-libiconv-1.17/lib/cp856.h
-libiconv-1.17/lib/cp863.h
-libiconv-1.17/lib/iso8859_13.h
-libiconv-1.17/lib/vietcomb.h
-libiconv-1.17/lib/canonical_dos.h
-libiconv-1.17/lib/ascii.h
-libiconv-1.17/lib/ebcdic1142.h
-libiconv-1.17/lib/mac_centraleurope.h
-libiconv-1.17/lib/big5.h
-libiconv-1.17/lib/mac_ukraine.h
-libiconv-1.17/lib/ebcdic1166.h
-libiconv-1.17/lib/johab.h
-libiconv-1.17/lib/koi8_t.h
-libiconv-1.17/lib/ucs4swapped.h
-libiconv-1.17/lib/cp936.h
-libiconv-1.17/lib/encodings_local.def
-libiconv-1.17/lib/hkscs2001.h
-libiconv-1.17/lib/gbkext2.h
-libiconv-1.17/lib/ebcdic1158.h
-libiconv-1.17/lib/jisx0212.h
-libiconv-1.17/lib/cp1252.h
-libiconv-1.17/lib/mac_greek.h
-libiconv-1.17/lib/cp50221_0212_ext.h
-libiconv-1.17/lib/canonical.h
-libiconv-1.17/lib/isoir165ext.h
-libiconv-1.17/lib/ebcdic500.h
-libiconv-1.17/lib/cp1161.h
-libiconv-1.17/lib/cns11643_15.h
-libiconv-1.17/lib/tds565.h
-libiconv-1.17/lib/cp1255.h
-libiconv-1.17/lib/mac_cyrillic.h
-libiconv-1.17/lib/ebcdic1154.h
-libiconv-1.17/lib/aliases_sysosf1.h
-libiconv-1.17/lib/armscii_8.h
-libiconv-1.17/lib/ebcdic1149.h
-libiconv-1.17/lib/canonical_aix_sysaix.h
-libiconv-1.17/lib/ebcdic838.h
-libiconv-1.17/lib/iso8859_2.h
-libiconv-1.17/lib/ucs2.h
-libiconv-1.17/lib/atarist.h
-libiconv-1.17/lib/cp1124.h
-libiconv-1.17/lib/canonical_sysaix.h
-libiconv-1.17/lib/ebcdic1047.h
-libiconv-1.17/lib/cp1125.h
-libiconv-1.17/lib/cp864.h
-libiconv-1.17/lib/big5_2003.h
-libiconv-1.17/lib/mac_croatian.h
-libiconv-1.17/lib/georgian_ps.h
-libiconv-1.17/lib/cp437.h
-libiconv-1.17/lib/ebcdic924.h
-libiconv-1.17/lib/ksc5601.h
-libiconv-1.17/lib/cp853.h
-libiconv-1.17/lib/mac_turkish.h
-libiconv-1.17/lib/ces_big5.h
-libiconv-1.17/lib/aliases_dos.h
-libiconv-1.17/lib/flags.h
-libiconv-1.17/lib/gb18030ext.h
-libiconv-1.17/lib/translit.h
-libiconv-1.17/lib/iso8859_14.h
-libiconv-1.17/lib/cp950ext.h
-libiconv-1.17/lib/cns11643_2.h
-libiconv-1.17/lib/iso2022_jp1.h
-libiconv-1.17/lib/ebcdic1157.h
-libiconv-1.17/lib/cns11643_inv.h
-libiconv-1.17/lib/ebcdic1143.h
-libiconv-1.17/lib/cp862.h
-libiconv-1.17/lib/cp1257.h
-libiconv-1.17/lib/ucs4internal.h
-libiconv-1.17/lib/mac_hebrew.h
-libiconv-1.17/lib/aliases.gperf
-libiconv-1.17/lib/iso8859_6.h
-libiconv-1.17/lib/iso2022_kr.h
-libiconv-1.17/lib/ebcdic1164.h
-libiconv-1.17/lib/cp861.h
-libiconv-1.17/lib/aliases_sysaix.h
-libiconv-1.17/lib/iconv_open1.h
-libiconv-1.17/lib/iso2022_jp.h
-libiconv-1.17/lib/ebcdic12712.h
-libiconv-1.17/lib/ucs2le.h
-libiconv-1.17/lib/ebcdic1132.h
-libiconv-1.17/lib/ebcdic880.h
-libiconv-1.17/lib/ebcdic1026.h
-libiconv-1.17/lib/relocatable.c
-libiconv-1.17/lib/ebcdic905.h
-libiconv-1.17/lib/ebcdic1147.h
-libiconv-1.17/lib/cp852.h
-libiconv-1.17/lib/rk1048.h
-libiconv-1.17/lib/gb12345.h
-libiconv-1.17/lib/aliases.h
-libiconv-1.17/lib/uhc_2.h
-libiconv-1.17/lib/ebcdic423.h
-libiconv-1.17/lib/cp874.h
-libiconv-1.17/lib/genaliases.c
-libiconv-1.17/lib/aliases_aix_sysaix.h
-libiconv-1.17/lib/cp932ext.h
-libiconv-1.17/lib/cp850.h
-libiconv-1.17/lib/config.h.in
-libiconv-1.17/lib/ucs4be.h
-libiconv-1.17/lib/canonical_local_syssolaris.h
-libiconv-1.17/lib/cp855.h
-libiconv-1.17/lib/ebcdic285.h
-libiconv-1.17/lib/euc_tw.h
-libiconv-1.17/lib/cp775.h
-libiconv-1.17/lib/pt154.h
-libiconv-1.17/lib/iconv_open2.h
-libiconv-1.17/lib/koi8_ru.h
-libiconv-1.17/lib/iso646_jp.h
-libiconv-1.17/lib/gb12345ext.h
-libiconv-1.17/lib/nextstep.h
-libiconv-1.17/lib/aliases_extra.h
-libiconv-1.17/lib/iso8859_5.h
-libiconv-1.17/lib/iso2022_cn.h
-libiconv-1.17/lib/euc_jp.h
-libiconv-1.17/lib/ucs2internal.h
-libiconv-1.17/lib/gbk.h
-libiconv-1.17/lib/cns11643_4.h
-libiconv-1.17/lib/encodings_dos.def
-libiconv-1.17/lib/cp950.h
-libiconv-1.17/lib/utf7.h
-libiconv-1.17/lib/ebcdic273.h
-libiconv-1.17/lib/iconv.c
-libiconv-1.17/lib/iso646_cn.h
-libiconv-1.17/lib/iso8859_9.h
-libiconv-1.17/lib/aliases_syshpux.h
-libiconv-1.17/lib/cp936ext.h
-libiconv-1.17/lib/ebcdic1130.h
-libiconv-1.17/lib/utf32le.h
-libiconv-1.17/lib/gentranslit.c
-libiconv-1.17/lib/java.h
-libiconv-1.17/lib/aliases_syssolaris.h
-libiconv-1.17/lib/ebcdic280.h
-libiconv-1.17/lib/gb2312.h
-libiconv-1.17/lib/ebcdic4971.h
-libiconv-1.17/lib/mac_roman.h
-libiconv-1.17/lib/ebcdic16804.h
-libiconv-1.17/lib/dec_hanyu.h
-libiconv-1.17/lib/aliases_sysosf1.gperf
-libiconv-1.17/lib/ebcdic297.h
-libiconv-1.17/lib/mac_thai.h
-libiconv-1.17/lib/utf16.h
-libiconv-1.17/lib/aliases_zos.h
-libiconv-1.17/lib/aliases_osf1.h
-libiconv-1.17/lib/canonical_local_sysaix.h
-libiconv-1.17/lib/relocatable.h
-libiconv-1.17/lib/iso8859_11.h
-libiconv-1.17/lib/euc_cn.h
-libiconv-1.17/lib/cp869.h
-libiconv-1.17/lib/ebcdic1025.h
-libiconv-1.17/lib/canonical_osf1.h
-libiconv-1.17/aclocal.m4
-libiconv-1.17/srclib/
-libiconv-1.17/srclib/stat-time.h
-libiconv-1.17/srclib/safe-read.h
-libiconv-1.17/srclib/stat-w32.c
-libiconv-1.17/srclib/unictype/
-libiconv-1.17/srclib/unictype/bitmap.h
-libiconv-1.17/srclib/malloca.h
-libiconv-1.17/srclib/idx.h
-libiconv-1.17/srclib/cdefs.h
-libiconv-1.17/srclib/getprogname.h
-libiconv-1.17/srclib/fcntl.c
-libiconv-1.17/srclib/close.c
-libiconv-1.17/srclib/Makefile.gnulib
-libiconv-1.17/srclib/free.c
-libiconv-1.17/srclib/filename.h
-libiconv-1.17/srclib/xalloc.h
-libiconv-1.17/srclib/msvc-nothrow.h
-libiconv-1.17/srclib/fcntl.in.h
-libiconv-1.17/srclib/malloc/
-libiconv-1.17/srclib/malloc/scratch_buffer_set_array_size.c
-libiconv-1.17/srclib/malloc/scratch_buffer_dupfree.c
-libiconv-1.17/srclib/malloc/scratch_buffer.h
-libiconv-1.17/srclib/malloc/scratch_buffer_grow.c
-libiconv-1.17/srclib/malloc/scratch_buffer_grow_preserve.c
-libiconv-1.17/srclib/pathmax.h
-libiconv-1.17/srclib/rawmemchr.c
-libiconv-1.17/srclib/uniwidth/
-libiconv-1.17/srclib/uniwidth/width.c
-libiconv-1.17/srclib/uniwidth/cjk.h
-libiconv-1.17/srclib/uniwidth/width2.h
-libiconv-1.17/srclib/uniwidth/width0.h
-libiconv-1.17/srclib/canonicalize-lgpl.c
-libiconv-1.17/srclib/sys-limits.h
-libiconv-1.17/srclib/dup2.c
-libiconv-1.17/srclib/stdio-read.c
-libiconv-1.17/srclib/msvc-nothrow.c
-libiconv-1.17/srclib/getprogname.c
-libiconv-1.17/srclib/cloexec.h
-libiconv-1.17/srclib/stdalign.in.h
-libiconv-1.17/srclib/Makefile.am
-libiconv-1.17/srclib/raise.c
-libiconv-1.17/srclib/xreadlink.h
-libiconv-1.17/srclib/basename-lgpl.c
-libiconv-1.17/srclib/malloc.c
-libiconv-1.17/srclib/cloexec.c
-libiconv-1.17/srclib/Makefile.in
-libiconv-1.17/srclib/stdio.in.h
-libiconv-1.17/srclib/stdint.in.h
-libiconv-1.17/srclib/libc-config.h
-libiconv-1.17/srclib/careadlinkat.c
-libiconv-1.17/srclib/fstat.c
-libiconv-1.17/srclib/stat.c
-libiconv-1.17/srclib/sys_types.in.h
-libiconv-1.17/srclib/error.h
-libiconv-1.17/srclib/mempcpy.c
-libiconv-1.17/srclib/arg-nonnull.h
-libiconv-1.17/srclib/xalloc-oversized.h
-libiconv-1.17/srclib/streq.h
-libiconv-1.17/srclib/binary-io.h
-libiconv-1.17/srclib/stdbool.in.h
-libiconv-1.17/srclib/readlink.c
-libiconv-1.17/srclib/limits.in.h
-libiconv-1.17/srclib/safe-read.c
-libiconv-1.17/srclib/xreadlink.c
-libiconv-1.17/srclib/verify.h
-libiconv-1.17/srclib/allocator.h
-libiconv-1.17/srclib/strerror.c
-libiconv-1.17/srclib/sigprocmask.c
-libiconv-1.17/srclib/c-ctype.c
-libiconv-1.17/srclib/alloca.in.h
-libiconv-1.17/srclib/minmax.h
-libiconv-1.17/srclib/unlocked-io.h
-libiconv-1.17/srclib/warn-on-use.h
-libiconv-1.17/srclib/uniwidth.in.h
-libiconv-1.17/srclib/stdlib.in.h
-libiconv-1.17/srclib/stat-time.c
-libiconv-1.17/srclib/inttypes.in.h
-libiconv-1.17/srclib/fd-hook.h
-libiconv-1.17/srclib/time.in.h
-libiconv-1.17/srclib/_Noreturn.h
-libiconv-1.17/srclib/read.c
-libiconv-1.17/srclib/realloc.c
-libiconv-1.17/srclib/scratch_buffer.h
-libiconv-1.17/srclib/getdtablesize.c
-libiconv-1.17/srclib/stat-w32.h
-libiconv-1.17/srclib/sys_stat.in.h
-libiconv-1.17/srclib/error.c
-libiconv-1.17/srclib/gettext.h
-libiconv-1.17/srclib/open.c
-libiconv-1.17/srclib/progname.h
-libiconv-1.17/srclib/areadlink.c
-libiconv-1.17/srclib/areadlink.h
-libiconv-1.17/srclib/intprops.h
-libiconv-1.17/srclib/rawmemchr.valgrind
-libiconv-1.17/srclib/careadlinkat.h
-libiconv-1.17/srclib/wchar.in.h
-libiconv-1.17/srclib/basename-lgpl.h
-libiconv-1.17/srclib/relocatable.c
-libiconv-1.17/srclib/fd-hook.c
-libiconv-1.17/srclib/msvc-inval.h
-libiconv-1.17/srclib/errno.in.h
-libiconv-1.17/srclib/allocator.c
-libiconv-1.17/srclib/progreloc.c
-libiconv-1.17/srclib/c-ctype.h
-libiconv-1.17/srclib/malloca.c
-libiconv-1.17/srclib/strerror-override.h
-libiconv-1.17/srclib/msvc-inval.c
-libiconv-1.17/srclib/c++defs.h
-libiconv-1.17/srclib/unitypes.in.h
-libiconv-1.17/srclib/signal.in.h
-libiconv-1.17/srclib/unistd.in.h
-libiconv-1.17/srclib/xmalloc.c
-libiconv-1.17/srclib/strerror-override.c
-libiconv-1.17/srclib/eloop-threshold.h
-libiconv-1.17/srclib/progname.c
-libiconv-1.17/srclib/stddef.in.h
-libiconv-1.17/srclib/localcharset.h
-libiconv-1.17/srclib/string.in.h
-libiconv-1.17/srclib/setenv.c
-libiconv-1.17/srclib/binary-io.c
-libiconv-1.17/srclib/xstrdup.c
-libiconv-1.17/srclib/unistd.c
-libiconv-1.17/srclib/relocatable.h
-libiconv-1.17/srclib/relocwrapper.c
-libiconv-1.17/srclib/stdio-write.c
-libiconv-1.17/include/
-libiconv-1.17/include/iconv.h.build.in
-libiconv-1.17/include/export.h
-libiconv-1.17/include/iconv.h.in
-libiconv-1.17/tests/
-libiconv-1.17/tests/ISO-8859-4.TXT
-libiconv-1.17/tests/TranslitFail1.ISO-8859-1
-libiconv-1.17/tests/BIG5-HKSCS-2004.TXT
-libiconv-1.17/tests/IBM-1097.TXT
-libiconv-1.17/tests/ARMSCII-8.IRREVERSIBLE.TXT
-libiconv-1.17/tests/BIG5.TXT
-libiconv-1.17/tests/IBM-924.TXT
-libiconv-1.17/tests/IBM-037.TXT
-libiconv-1.17/tests/CP852.TXT
-libiconv-1.17/tests/CP1252.TXT
-libiconv-1.17/tests/ISO-8859-11.TXT
-libiconv-1.17/tests/test-to-wchar.c
-libiconv-1.17/tests/CP874.TXT
-libiconv-1.17/tests/IBM-1123.TXT
-libiconv-1.17/tests/EUC-JISX0213.TXT
-libiconv-1.17/tests/UCS-2LE-snippet
-libiconv-1.17/tests/IBM-1160.TXT
-libiconv-1.17/tests/UTF-32-snippet.UTF-8
-libiconv-1.17/tests/check-stateful.bat
-libiconv-1.17/tests/CP1129.TXT
-libiconv-1.17/tests/EUC-CN.TXT
-libiconv-1.17/tests/IBM-1144.TXT
-libiconv-1.17/tests/Translit1.ISO-8859-1
-libiconv-1.17/tests/IBM-1156.TXT
-libiconv-1.17/tests/ASCII.TXT
-libiconv-1.17/tests/ISO646-CN.TXT
-libiconv-1.17/tests/TCVN.IRREVERSIBLE.TXT
-libiconv-1.17/tests/is-native.c
-libiconv-1.17/tests/ISO-2022-CN-snippet.UTF-8
-libiconv-1.17/tests/BIG5-HKSCS-2001-snippet.UTF-8
-libiconv-1.17/tests/IBM-273.TXT
-libiconv-1.17/tests/check-stateless
-libiconv-1.17/tests/IBM-1164.TXT
-libiconv-1.17/tests/UCS-4LE-snippet.UTF-8
-libiconv-1.17/tests/JOHAB.TXT
-libiconv-1.17/tests/CP860.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2004-snippet
-libiconv-1.17/tests/TCVN-snippet.UTF-8
-libiconv-1.17/tests/ISO-2022-JP-3-snippet
-libiconv-1.17/tests/MacTurkish.TXT
-libiconv-1.17/tests/CP737.TXT
-libiconv-1.17/tests/UCS-2BE-snippet
-libiconv-1.17/tests/MacRoman.TXT
-libiconv-1.17/tests/MacGreek.TXT
-libiconv-1.17/tests/CP1258.TXT
-libiconv-1.17/tests/CP1161.IRREVERSIBLE.TXT
-libiconv-1.17/tests/Translit1.ASCII
-libiconv-1.17/tests/ARMSCII-8.TXT
-libiconv-1.17/tests/CP775.TXT
-libiconv-1.17/tests/UTF-32LE-snippet
-libiconv-1.17/tests/MacCentralEurope.TXT
-libiconv-1.17/tests/CP861.TXT
-libiconv-1.17/tests/UTF-16BE-snippet
-libiconv-1.17/tests/CP1163.TXT
-libiconv-1.17/tests/IBM-424.TXT
-libiconv-1.17/tests/ISO-8859-16.TXT
-libiconv-1.17/tests/CP1046.TXT
-libiconv-1.17/tests/IBM-838.IRREVERSIBLE.TXT
-libiconv-1.17/tests/CP1162.TXT
-libiconv-1.17/tests/CP1254.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2004.IRREVERSIBLE.TXT
-libiconv-1.17/tests/ISO-2022-JP-MS-snippet
-libiconv-1.17/tests/CP1253.TXT
-libiconv-1.17/tests/IBM-1130.TXT
-libiconv-1.17/tests/CP1163.IRREVERSIBLE.TXT
-libiconv-1.17/tests/CP949.TXT
-libiconv-1.17/tests/CP437.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2001.IRREVERSIBLE.TXT
-libiconv-1.17/tests/CP932.TXT
-libiconv-1.17/tests/CP862.TXT
-libiconv-1.17/tests/UTF-16LE-snippet
-libiconv-1.17/tests/CP850.TXT
-libiconv-1.17/tests/IBM-16804.TXT
-libiconv-1.17/tests/ISO-2022-JP-snippet
-libiconv-1.17/tests/CP922.TXT
-libiconv-1.17/tests/BIG5-HKSCS-1999-snippet
-libiconv-1.17/tests/ISO-8859-6.TXT
-libiconv-1.17/tests/TIS-620.TXT
-libiconv-1.17/tests/Makefile.in
-libiconv-1.17/tests/Georgian-Academy.TXT
-libiconv-1.17/tests/KOI8-R.TXT
-libiconv-1.17/tests/ISO-2022-JP-snippet.UTF-8
-libiconv-1.17/tests/CP950.TXT
-libiconv-1.17/tests/NEXTSTEP.TXT
-libiconv-1.17/tests/ISO-2022-CN-EXT-snippet
-libiconv-1.17/tests/UTF-32BE-snippet
-libiconv-1.17/tests/UCS-4BE-snippet.UTF-8
-libiconv-1.17/tests/UCS-4BE-snippet
-libiconv-1.17/tests/EUC-TW.TXT
-libiconv-1.17/tests/HP-ROMAN8.TXT
-libiconv-1.17/tests/CP1258-snippet
-libiconv-1.17/tests/IBM-1148.TXT
-libiconv-1.17/tests/SHIFT_JIS.TXT
-libiconv-1.17/tests/CP950.IRREVERSIBLE.TXT
-libiconv-1.17/tests/CP1257.TXT
-libiconv-1.17/tests/BIG5-2003.IRREVERSIBLE.TXT
-libiconv-1.17/tests/IBM-280.TXT
-libiconv-1.17/tests/IBM-1154.TXT
-libiconv-1.17/tests/EUC-JP.IRREVERSIBLE.TXT
-libiconv-1.17/tests/check-stateless.bat
-libiconv-1.17/tests/Quotes.UTF-8
-libiconv-1.17/tests/IBM-423.TXT
-libiconv-1.17/tests/IBM-297.TXT
-libiconv-1.17/tests/IBM-1158.TXT
-libiconv-1.17/tests/CP932.IRREVERSIBLE.TXT
-libiconv-1.17/tests/UCS-2BE-snippet.UTF-8
-libiconv-1.17/tests/HZ-snippet
-libiconv-1.17/tests/IBM-500.TXT
-libiconv-1.17/tests/test-shiftseq.c
-libiconv-1.17/tests/KOI8-T.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2008-snippet
-libiconv-1.17/tests/check-translit.bat
-libiconv-1.17/tests/ATARIST.TXT
-libiconv-1.17/tests/BIG5-HKSCS-1999.IRREVERSIBLE.TXT
-libiconv-1.17/tests/ISO-8859-3.TXT
-libiconv-1.17/tests/IBM-1147.TXT
-libiconv-1.17/tests/ISO-8859-2.TXT
-libiconv-1.17/tests/CP1255-snippet
-libiconv-1.17/tests/BIG5-HKSCS-2008.IRREVERSIBLE.TXT
-libiconv-1.17/tests/DEC-HANYU.TXT
-libiconv-1.17/tests/ISO-2022-JP-MS-snippet.UTF-8
-libiconv-1.17/tests/RISCOS-LATIN1.TXT
-libiconv-1.17/tests/IBM-1166.TXT
-libiconv-1.17/tests/IBM-1160.IRREVERSIBLE.TXT
-libiconv-1.17/tests/IBM-838.TXT
-libiconv-1.17/tests/IBM-1112.TXT
-libiconv-1.17/tests/Georgian-PS.TXT
-libiconv-1.17/tests/CP855.TXT
-libiconv-1.17/tests/ISO-IR-165.TXT
-libiconv-1.17/tests/IBM-1143.TXT
-libiconv-1.17/tests/IBM-1140.TXT
-libiconv-1.17/tests/CP864.TXT
-libiconv-1.17/tests/IBM-871.TXT
-libiconv-1.17/tests/Quotes.ISO-8859-1
-libiconv-1.17/tests/MacRomania.TXT
-libiconv-1.17/tests/IBM-1137.TXT
-libiconv-1.17/tests/UTF-7-snippet
-libiconv-1.17/tests/TDS565.TXT
-libiconv-1.17/tests/KOI8-U.TXT
-libiconv-1.17/tests/CP857.TXT
-libiconv-1.17/tests/ISO-2022-JP-2-snippet
-libiconv-1.17/tests/IBM-1153.TXT
-libiconv-1.17/tests/MacIceland.TXT
-libiconv-1.17/tests/IBM-880.TXT
-libiconv-1.17/tests/EUC-KR.TXT
-libiconv-1.17/tests/uniq-u.c
-libiconv-1.17/tests/ISO-8859-13.TXT
-libiconv-1.17/tests/UTF-16LE-snippet.UTF-8
-libiconv-1.17/tests/CP1251.TXT
-libiconv-1.17/tests/CP1258.IRREVERSIBLE.TXT
-libiconv-1.17/tests/ISO-8859-1.TXT
-libiconv-1.17/tests/IBM-1155.TXT
-libiconv-1.17/tests/ISO-2022-KR-snippet.UTF-8
-libiconv-1.17/tests/IBM-12712.TXT
-libiconv-1.17/tests/IBM-905.TXT
-libiconv-1.17/tests/UTF-16BE-snippet.UTF-8
-libiconv-1.17/tests/CP1256.TXT
-libiconv-1.17/tests/ISO-2022-JP-MS-snippet.alt
-libiconv-1.17/tests/Quotes.ASCII
-libiconv-1.17/tests/CP853.TXT
-libiconv-1.17/tests/CP1255.IRREVERSIBLE.TXT
-libiconv-1.17/tests/MacCroatian.TXT
-libiconv-1.17/tests/IBM-1157.TXT
-libiconv-1.17/tests/EUC-TW.IRREVERSIBLE.TXT
-libiconv-1.17/tests/VISCII.TXT
-libiconv-1.17/tests/IBM-1122.TXT
-libiconv-1.17/tests/IBM-875.TXT
-libiconv-1.17/tests/table-to.c
-libiconv-1.17/tests/IBM-1145.TXT
-libiconv-1.17/tests/IBM-284.TXT
-libiconv-1.17/tests/CP1250.TXT
-libiconv-1.17/tests/BIG5-HKSCS-1999.TXT
-libiconv-1.17/tests/IBM-1149.TXT
-libiconv-1.17/tests/IBM-1142.TXT
-libiconv-1.17/tests/CP866.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2001.TXT
-libiconv-1.17/tests/CP865.TXT
-libiconv-1.17/tests/UCS-4LE-snippet
-libiconv-1.17/tests/UTF-32-snippet
-libiconv-1.17/tests/ISO-8859-7.TXT
-libiconv-1.17/tests/ISO-8859-5.TXT
-libiconv-1.17/tests/IBM-277.TXT
-libiconv-1.17/tests/IBM-4971.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2008.TXT
-libiconv-1.17/tests/ISO-2022-CN-EXT-snippet.UTF-8
-libiconv-1.17/tests/GBK.TXT
-libiconv-1.17/tests/MacUkraine.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2008-snippet.UTF-8
-libiconv-1.17/tests/DEC-KANJI.TXT
-libiconv-1.17/tests/ISO-8859-10.TXT
-libiconv-1.17/tests/ISO-IR-165.IRREVERSIBLE.TXT
-libiconv-1.17/tests/MuleLao-1.TXT
-libiconv-1.17/tests/IBM-1132.TXT
-libiconv-1.17/tests/DEC-HANYU.IRREVERSIBLE.TXT
-libiconv-1.17/tests/MacArabic.TXT
-libiconv-1.17/tests/ISO-2022-JP-1-snippet.UTF-8
-libiconv-1.17/tests/CP1131.TXT
-libiconv-1.17/tests/CP856.TXT
-libiconv-1.17/tests/BIG5-2003.TXT
-libiconv-1.17/tests/UTF-16-snippet
-libiconv-1.17/tests/UTF-7-snippet.UTF-8
-libiconv-1.17/tests/HZ-snippet.UTF-8
-libiconv-1.17/tests/BIG5-HKSCS-2001-snippet
-libiconv-1.17/tests/CP858.TXT
-libiconv-1.17/tests/ISO-8859-8.TXT
-libiconv-1.17/tests/table-from.c
-libiconv-1.17/tests/EUC-JP.TXT
-libiconv-1.17/tests/IBM-870.TXT
-libiconv-1.17/tests/CP869.TXT
-libiconv-1.17/tests/IBM-1165.TXT
-libiconv-1.17/tests/MacThai.TXT
-libiconv-1.17/tests/IBM-1047.TXT
-libiconv-1.17/tests/GB18030.IRREVERSIBLE.TXT
-libiconv-1.17/tests/gengb18030z.c
-libiconv-1.17/tests/IBM-285.TXT
-libiconv-1.17/tests/CP863.TXT
-libiconv-1.17/tests/SHIFT_JISX0213.TXT
-libiconv-1.17/tests/CP1125.TXT
-libiconv-1.17/tests/RK1048.TXT
-libiconv-1.17/tests/CP1255-snippet.UTF-8
-libiconv-1.17/tests/IBM-1141.TXT
-libiconv-1.17/tests/ISO-2022-JP-3-snippet.UTF-8
-libiconv-1.17/tests/check-subst
-libiconv-1.17/tests/MacHebrew.TXT
-libiconv-1.17/tests/ISO-2022-KR-snippet
-libiconv-1.17/tests/ISO646-JP.TXT
-libiconv-1.17/tests/IBM-1026.TXT
-libiconv-1.17/tests/CP1124.TXT
-libiconv-1.17/tests/qemu.h
-libiconv-1.17/tests/UTF-16-snippet.UTF-8
-libiconv-1.17/tests/MacCyrillic.TXT
-libiconv-1.17/tests/CP1161.TXT
-libiconv-1.17/tests/BIG5-HKSCS-1999-snippet.UTF-8
-libiconv-1.17/tests/IBM-1025.TXT
-libiconv-1.17/tests/ISO-2022-CN-snippet
-libiconv-1.17/tests/ISO-2022-JP-2-snippet.UTF-8
-libiconv-1.17/tests/check-translit
-libiconv-1.17/tests/genutf8.c
-libiconv-1.17/tests/UCS-2LE-snippet.UTF-8
-libiconv-1.17/tests/CP936.TXT
-libiconv-1.17/tests/JIS_X0201.TXT
-libiconv-1.17/tests/ISO-8859-9.TXT
-libiconv-1.17/tests/CP1255.TXT
-libiconv-1.17/tests/IBM-425.TXT
-libiconv-1.17/tests/IBM-278.TXT
-libiconv-1.17/tests/GB18030-BMP.TXT
-libiconv-1.17/tests/TCVN-snippet
-libiconv-1.17/tests/PT154.TXT
-libiconv-1.17/tests/ISO-8859-14.TXT
-libiconv-1.17/tests/BIG5-HKSCS-2004-snippet.UTF-8
-libiconv-1.17/tests/CP1258-snippet.UTF-8
-libiconv-1.17/tests/CP1133.TXT
-libiconv-1.17/tests/ISO-2022-JP-1-snippet
-libiconv-1.17/tests/UTF-32BE-snippet.UTF-8
-libiconv-1.17/tests/UTF-32LE-snippet.UTF-8
-libiconv-1.17/tests/check-stateful
-libiconv-1.17/tests/IBM-1146.TXT
-libiconv-1.17/tests/KOI8-RU.TXT
-libiconv-1.17/tests/ISO-8859-15.TXT
-libiconv-1.17/tests/IBM-282.TXT
-libiconv-1.17/tests/check-translitfailure
-libiconv-1.17/tests/TCVN.TXT
-libiconv-1.17/libcharset/
-libiconv-1.17/libcharset/COPYING.LIB
-libiconv-1.17/libcharset/build-aux/
-libiconv-1.17/libcharset/build-aux/mkinstalldirs
-libiconv-1.17/libcharset/build-aux/ltmain.sh
-libiconv-1.17/libcharset/build-aux/config.guess
-libiconv-1.17/libcharset/build-aux/libtool-reloc
-libiconv-1.17/libcharset/build-aux/config.sub
-libiconv-1.17/libcharset/build-aux/install-sh
-libiconv-1.17/libcharset/build-aux/config.libpath
-libiconv-1.17/libcharset/ChangeLog
-libiconv-1.17/libcharset/tools/
-libiconv-1.17/libcharset/tools/all-charsets-X11
-libiconv-1.17/libcharset/tools/freebsd-3.3
-libiconv-1.17/libcharset/tools/hpux-11.00
-libiconv-1.17/libcharset/tools/osf1-4.0d
-libiconv-1.17/libcharset/tools/sunos-4.1.4
-libiconv-1.17/libcharset/tools/aix-4.2.0
-libiconv-1.17/libcharset/tools/solaris-2.5.1
-libiconv-1.17/libcharset/tools/locale_codeset.c
-libiconv-1.17/libcharset/tools/solaris-2.7
-libiconv-1.17/libcharset/tools/darwin-9.5
-libiconv-1.17/libcharset/tools/locale_x11encoding.c
-libiconv-1.17/libcharset/tools/locale_monthnames.c
-libiconv-1.17/libcharset/tools/aix-4.3.2
-libiconv-1.17/libcharset/tools/hpux-10.20
-libiconv-1.17/libcharset/tools/solaris-2.6
-libiconv-1.17/libcharset/tools/README
-libiconv-1.17/libcharset/tools/all-locales
-libiconv-1.17/libcharset/tools/aix-4.1.5
-libiconv-1.17/libcharset/tools/solaris-2.4
-libiconv-1.17/libcharset/tools/glibc-2.2-XF86-3.3.6
-libiconv-1.17/libcharset/tools/glibc-2.1.3
-libiconv-1.17/libcharset/tools/netbsd-3.0
-libiconv-1.17/libcharset/tools/solaris-2.6-cjk
-libiconv-1.17/libcharset/tools/osf1-5.1
-libiconv-1.17/libcharset/tools/darwin-6.8
-libiconv-1.17/libcharset/tools/locale_charmap
-libiconv-1.17/libcharset/tools/beos-5
-libiconv-1.17/libcharset/tools/openbsd-4.1
-libiconv-1.17/libcharset/tools/darwin-7.5
-libiconv-1.17/libcharset/tools/glibc-2.1.90
-libiconv-1.17/libcharset/tools/locale_charset.c
-libiconv-1.17/libcharset/tools/glibc-2.2-XF86-4.0.1f
-libiconv-1.17/libcharset/tools/osf1-4.0a
-libiconv-1.17/libcharset/tools/cygwin-1.7.2
-libiconv-1.17/libcharset/tools/aix-3.2.5
-libiconv-1.17/libcharset/tools/glibc-2.2
-libiconv-1.17/libcharset/tools/all-charsets
-libiconv-1.17/libcharset/tools/hpux-10.01
-libiconv-1.17/libcharset/tools/win32
-libiconv-1.17/libcharset/tools/irix-6.5
-libiconv-1.17/libcharset/Makefile.devel
-libiconv-1.17/libcharset/configure
-libiconv-1.17/libcharset/Makefile.in
-libiconv-1.17/libcharset/autoconf/
-libiconv-1.17/libcharset/autoconf/aclocal.m4
-libiconv-1.17/libcharset/INSTALL.generic
-libiconv-1.17/libcharset/NEWS
-libiconv-1.17/libcharset/README
-libiconv-1.17/libcharset/HACKING
-libiconv-1.17/libcharset/INTEGRATE
-libiconv-1.17/libcharset/configure.ac
-libiconv-1.17/libcharset/INSTALL.windows
-libiconv-1.17/libcharset/AUTHORS
-libiconv-1.17/libcharset/lib/
-libiconv-1.17/libcharset/lib/ChangeLog
-libiconv-1.17/libcharset/lib/relocatable-stub.c
-libiconv-1.17/libcharset/lib/Makefile.in
-libiconv-1.17/libcharset/lib/localcharset.c
-libiconv-1.17/libcharset/include/
-libiconv-1.17/libcharset/include/localcharset.h.build.in
-libiconv-1.17/libcharset/include/localcharset.h.in
-libiconv-1.17/libcharset/include/libcharset.h.in
-libiconv-1.17/libcharset/include/export.h
-libiconv-1.17/libcharset/include/libcharset.h.build.in
-libiconv-1.17/libcharset/config.h.in
-libiconv-1.17/libcharset/m4/
-libiconv-1.17/libcharset/m4/libtool.m4
-libiconv-1.17/libcharset/m4/fcntl-o.m4
-libiconv-1.17/libcharset/m4/lt~obsolete.m4
-libiconv-1.17/libcharset/m4/ltversion.m4
-libiconv-1.17/libcharset/m4/ltsugar.m4
-libiconv-1.17/libcharset/m4/ltoptions.m4
-libiconv-1.17/libcharset/m4/codeset.m4
-libiconv-1.17/libcharset/m4/visibility.m4
-libiconv-1.17/libcharset/DEPENDENCIES
-libiconv-1.17/config.h.in
-libiconv-1.17/m4/
-libiconv-1.17/m4/eilseq.m4
-libiconv-1.17/m4/libtool.m4
-libiconv-1.17/m4/ln.m4
-libiconv-1.17/m4/cp.m4
-libiconv-1.17/m4/lt~obsolete.m4
-libiconv-1.17/m4/ltversion.m4
-libiconv-1.17/m4/ltsugar.m4
-libiconv-1.17/m4/ltoptions.m4
-libiconv-1.17/m4/proto.m4
-libiconv-1.17/m4/general.m4
-libiconv-1.17/os2/
-libiconv-1.17/os2/iconv.def
-libiconv-1.17/extras/
-libiconv-1.17/extras/ChangeLog
-libiconv-1.17/extras/iconv_string.c
-libiconv-1.17/extras/iconv_string.h
-libiconv-1.17/COPYING
-libiconv-1.17/DEPENDENCIES
-patching file srclib/getprogname.c
-+ DYNAMIC_INIT
-+ COOKBOOK_AUTORECONF=autoreconf
-+ case "${TARGET}" in
-+ '[' -z '' ']'
-+ COOKBOOK_CONFIGURE_FLAGS=(--host="${GNU_TARGET}" --prefix="/usr" --enable-shared --disable-static)
-+ COOKBOOK_CMAKE_FLAGS=(-DBUILD_SHARED_LIBS=True -DENABLE_SHARED=True -DENABLE_STATIC=False)
-+ COOKBOOK_MESON_FLAGS=(--buildtype release --wrap-mode nofallback --strip -Ddefault_library=shared -Dprefix=/usr)
-+ export 'LDFLAGS=-Wl,-rpath-link,/lib -L/lib'
-+ LDFLAGS='-Wl,-rpath-link,/lib -L/lib'
-+ export 'RUSTFLAGS= -C target-feature=-crt-static'
-+ RUSTFLAGS=' -C target-feature=-crt-static'
-+ export COOKBOOK_DYNAMIC=1
-+ COOKBOOK_DYNAMIC=1
-+ cp /home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//share/aclocal/libtool.m4 ./m4/
-+ cp /home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//share/aclocal/libtool.m4 ./libcharset/m4/
-+ cp -fp /home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//share/libtool/build-aux/ltmain.sh ./build-aux/
-cp: cannot stat '/home/jrad/RustroverProjects/redoxos/redox/prefix/x86_64-unknown-redox/sysroot//share/libtool/build-aux/ltmain.sh': No such file or directory
-[1m[38;5;196mcook libiconv - failed [39m[m
-failed to fetch: "failed to run cd \"recipes/libs/libiconv/source.tmp\" && \"bash\" \"-ex\": exited with status exit status: 1"
-make: *** [mk/repo.mk:7: build/x86_64/desktop/repo.tag] Error 1
+fusermount3 -u build/aarch64/raspi5/filesystem/ || true
+fusermount3: entry for /home/jrad/RustroverProjects/redoxos/redox/build/aarch64/raspi5/filesystem not found in /etc/mtab
+fusermount3 -u /tmp/redox_installer/ || true
+fusermount3: entry for /tmp/redox_installer not found in /etc/mtab
+rm -f build/aarch64/raspi5/harddrive.img build/aarch64/raspi5/redox-live.iso
+make all
+make[1]: Entering directory '/home/jrad/RustroverProjects/redoxos/redox'
+mkdir -p build/aarch64/raspi5
+rm -rf build/aarch64/raspi5/harddrive.img  build/aarch64/raspi5/harddrive.img.partial
+fusermount3 -u /tmp/redox_installer || true
+fusermount3: entry for /tmp/redox_installer not found in /etc/mtab
+FILESYSTEM_SIZE= && \
+if [ -z "$FILESYSTEM_SIZE" ] ; then \
+FILESYSTEM_SIZE=1024; \
+fi && \
+truncate -s "$FILESYSTEM_SIZE"m build/aarch64/raspi5/harddrive.img.partial
+umask 002 && build/fstools/bin/redox_installer --cookbook=. -c config/aarch64/raspi5.toml build/aarch64/raspi5/harddrive.img.partial
+Install Config {
+    include: [],
+    general: GeneralConfig {
+        prompt: Some(
+            false,
+        ),
+        repo_binary: None,
+        filesystem_size: Some(
+            1024,
+        ),
+        efi_partition_size: None,
+        skip_partitions: None,
+    },
+    packages: {
+        "bootloader": Spec {
+            version: None,
+            git: None,
+            path: None,
+        },
+        "drivers": Spec {
+            version: None,
+            git: None,
+            path: None,
+        },
+        "kernel": Spec {
+            version: None,
+            git: None,
+            path: None,
+        },
+        "redoxfs": Spec {
+            version: None,
+            git: None,
+            path: None,
+        },
+    },
+    files: [
+        FileConfig {
+            path: "/etc/hostname",
+            data: "redox-rpi5",
+            symlink: false,
+            directory: false,
+            mode: None,
+            uid: None,
+            gid: None,
+            recursive_chown: false,
+            postinstall: false,
+        },
+        FileConfig {
+            path: "/dev/tty",
+            data: "uart:",
+            symlink: false,
+            directory: false,
+            mode: None,
+            uid: None,
+            gid: None,
+            recursive_chown: false,
+            postinstall: false,
+        },
+        FileConfig {
+            path: "filesystem.toml",
+            data: "include = []\n\n[general]\nprompt = false\nfilesystem_size = 1024\n\n[packages.bootloader]\n\n[packages.drivers]\n\n[packages.kernel]\n\n[packages.redoxfs]\n\n[[files]]\npath = \"/etc/hostname\"\ndata = \"redox-rpi5\"\nsymlink = false\ndirectory = false\nrecursive_chown = false\npostinstall = false\n\n[[files]]\npath = \"/dev/tty\"\ndata = \"uart:\"\nsymlink = false\ndirectory = false\nrecursive_chown = false\npostinstall = false\n\n[users]\n\n[groups]\n",
+            symlink: false,
+            directory: false,
+            mode: None,
+            uid: None,
+            gid: None,
+            recursive_chown: false,
+            postinstall: false,
+        },
+        FileConfig {
+            path: "pkg/id_ed25519.pub.toml",
+            data: "pkey = \"8c060347d47f30be0b9194c9f65508bd01d73287b528623da8d03ca20b1beb3c\"\n",
+            symlink: false,
+            directory: false,
+            mode: None,
+            uid: None,
+            gid: None,
+            recursive_chown: false,
+            postinstall: false,
+        },
+    ],
+    users: {},
+    groups: {},
+} to build/aarch64/raspi5/harddrive.img.partial
+Create file parent /tmp/redox_installer_bootloader_637889/etc/pkg.d
+Create file /tmp/redox_installer_bootloader_637889/etc/pkg.d/50_redox
+Installing package from local repo: bootloader
+Opening disk build/aarch64/raspi5/harddrive.img.partial
+Write bootloader with size 0x0
+Writing protective MBR with disk blocks 0x1fffff
+Writing GPT tables: {
+    1: Partition {
+        part_type_guid: Type {
+            guid: "21686148-6449-6E6F-744E-656564454649",
+            os: None,
+        },
+        part_guid: 5a23cf10-85d6-41e3-a87e-bff3340411ca,
+        first_lba: 34,
+        last_lba: 2047,
+        flags: 0,
+        name: "BIOS",
+    },
+    2: Partition {
+        part_type_guid: Type {
+            guid: "C12A7328-F81F-11D2-BA4B-00A0C93EC93B",
+            os: None,
+        },
+        part_guid: dee195dd-6654-4757-b985-8a3d24686f44,
+        first_lba: 2048,
+        last_lba: 4095,
+        flags: 0,
+        name: "EFI",
+    },
+    3: Partition {
+        part_type_guid: Type {
+            guid: "0FC63DAF-8483-4772-8E79-3D69D8477DE4",
+            os: Linux,
+        },
+        part_guid: 5c59d924-ebb8-4cf7-812f-1fa74bbd3064,
+        first_lba: 4096,
+        last_lba: 2095103,
+        flags: 0,
+        name: "REDOX",
+    },
+}
+Formatting EFI partition with size 0x100000
+Opening EFI partition
+Creating EFI directory
+Creating EFI/BOOT directory
+Writing EFI/BOOT/BOOTAA64.EFI file with size 0x28a00
+Installing to RedoxFS partition with size 0x3fcffe00
+Create file parent /tmp/redox_installer_637889/etc
+Create file /tmp/redox_installer_637889/etc/hostname
+Create file parent /tmp/redox_installer_637889/dev
+Create file /tmp/redox_installer_637889/dev/tty
+Create file parent /tmp/redox_installer_637889
+Create file /tmp/redox_installer_637889/filesystem.toml
+Create file parent /tmp/redox_installer_637889/pkg
+Create file /tmp/redox_installer_637889/pkg/id_ed25519.pub.toml
+Installing package from local repo: bootloader
+Installing package from local repo: drivers
+Installing package from local repo: kernel
+Installing package from local repo: redoxfs
+mv build/aarch64/raspi5/harddrive.img.partial build/aarch64/raspi5/harddrive.img
+make[1]: Leaving directory '/home/jrad/RustroverProjects/redoxos/redox'
