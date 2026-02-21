@@ -1,0 +1,13 @@
+# AI Server build config
+
+include = ["server.toml"]
+
+[packages]
+python = {}
+python-numpy = {}
+ollama = {}
+openblas = {}
+# ML tools and drivers
+gpu-drivers = {}
+docker = {}
+podman = {}

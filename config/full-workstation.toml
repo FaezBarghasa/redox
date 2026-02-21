@@ -1,0 +1,20 @@
+# Full Workstation build config
+
+include = ["desktop.toml"]
+
+# Customizing workstation packages
+[packages]
+gcc = {}
+gnu-make = {}
+pkg-config = {}
+python = {}
+rust = {}
+git = {}
+bash = {}
+vim = {}
+tmux = {}
+neofetch = {}
+obs-studio = {} # For streaming/recording
+# Ensure standard office tools
+libreoffice = {}
+gimp = {}

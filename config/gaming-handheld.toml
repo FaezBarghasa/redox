@@ -1,0 +1,10 @@
+# Gaming Handheld build config
+
+include = ["minimal-net.toml", "wayland.toml"]
+
+[packages]
+retroarch = {}
+sdl2 = {}
+mesa = {}
+# Additional gaming libraries and controllers support
+gamepad-utils = {}

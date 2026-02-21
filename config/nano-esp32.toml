@@ -1,0 +1,12 @@
+# Nano ESP32 target
+
+include = ["acid.toml"]
+
+[general]
+# Extreme minimal fs size
+filesystem_size = 16
+
+[packages]
+ion = {}
+acpid = {}
+# Hardware specifics will be bundled outside of this FS

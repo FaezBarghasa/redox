@@ -6,6 +6,7 @@ variables:
 stages:
   - lint
   - test
+  - sync
 
 fmt:
   stage: lint
@@ -58,3 +59,16 @@ img:
     paths:
       - build/img/
     expire_in: 1 week
+
+upstream-bridge:
+  stage: sync
+  image: "ubuntu:24.04"
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+  before_script:
+    - apt-get update -qq && apt-get install -qq git
+    - git config --global user.email "bot@redox-os.org"
+    - git config --global user.name "Redox Sync Bot"
+  script:
+    - bash scripts/upstream-bridge.sh
